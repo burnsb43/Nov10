@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BigView : UIView
+@interface BigView : UIView {
+    // holds the two subviews we transition between
+    NSArray *views;
+    
+    //index in views of currently displayed little view 0 or 1
+    NSUInteger index;
+}
 
 @end

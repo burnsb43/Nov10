@@ -18,6 +18,10 @@
 		8550475114697A310043A1A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8550473814697A300043A1A1 /* Foundation.framework */; };
 		8550475914697A310043A1A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8550475714697A310043A1A1 /* InfoPlist.strings */; };
 		8550475C14697A310043A1A1 /* Nov10aTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550475B14697A310043A1A1 /* Nov10aTests.m */; };
+		8550476714697AC70043A1A1 /* BigView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550476614697AC70043A1A1 /* BigView.m */; };
+		8550476A14697B6F0043A1A1 /* LittleView0.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550476914697B6F0043A1A1 /* LittleView0.m */; };
+		8550476D14697B860043A1A1 /* LittleView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550476C14697B860043A1A1 /* LittleView1.m */; };
+		855047931469929A0043A1A1 /* StarTrek.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 855047921469929A0043A1A1 /* StarTrek.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +39,25 @@
 		8550473614697A300043A1A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8550473814697A300043A1A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8550473A14697A300043A1A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8550473E14697A300043A1A1 /* Nov10a-Info.plist */ = {isa = PBXFileReference; path = "Nov10a-Info.plist"; sourceTree = "<group>"; };
+		8550473E14697A300043A1A1 /* Nov10a-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nov10a-Info.plist"; sourceTree = "<group>"; };
 		8550474014697A300043A1A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8550474214697A300043A1A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8550474414697A300043A1A1 /* Nov10a-Prefix.pch */ = {isa = PBXFileReference; path = "Nov10a-Prefix.pch"; sourceTree = "<group>"; };
-		8550474514697A300043A1A1 /* Nov10aAppDelegate.h */ = {isa = PBXFileReference; path = Nov10aAppDelegate.h; sourceTree = "<group>"; };
+		8550474414697A300043A1A1 /* Nov10a-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nov10a-Prefix.pch"; sourceTree = "<group>"; };
+		8550474514697A300043A1A1 /* Nov10aAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nov10aAppDelegate.h; sourceTree = "<group>"; };
 		8550474614697A300043A1A1 /* Nov10aAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nov10aAppDelegate.m; sourceTree = "<group>"; };
 		8550474D14697A310043A1A1 /* Nov10aTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nov10aTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8550474E14697A310043A1A1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		8550475614697A310043A1A1 /* Nov10aTests-Info.plist */ = {isa = PBXFileReference; path = "Nov10aTests-Info.plist"; sourceTree = "<group>"; };
+		8550475614697A310043A1A1 /* Nov10aTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nov10aTests-Info.plist"; sourceTree = "<group>"; };
 		8550475814697A310043A1A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8550475A14697A310043A1A1 /* Nov10aTests.h */ = {isa = PBXFileReference; path = Nov10aTests.h; sourceTree = "<group>"; };
+		8550475A14697A310043A1A1 /* Nov10aTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nov10aTests.h; sourceTree = "<group>"; };
 		8550475B14697A310043A1A1 /* Nov10aTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nov10aTests.m; sourceTree = "<group>"; };
+		8550476514697AC70043A1A1 /* BigView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigView.h; sourceTree = "<group>"; };
+		8550476614697AC70043A1A1 /* BigView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigView.m; sourceTree = "<group>"; };
+		8550476814697B6F0043A1A1 /* LittleView0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LittleView0.h; sourceTree = "<group>"; };
+		8550476914697B6F0043A1A1 /* LittleView0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LittleView0.m; sourceTree = "<group>"; };
+		8550476B14697B860043A1A1 /* LittleView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LittleView1.h; sourceTree = "<group>"; };
+		8550476C14697B860043A1A1 /* LittleView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LittleView1.m; sourceTree = "<group>"; };
+		855047921469929A0043A1A1 /* StarTrek.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StarTrek.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +119,12 @@
 			children = (
 				8550474514697A300043A1A1 /* Nov10aAppDelegate.h */,
 				8550474614697A300043A1A1 /* Nov10aAppDelegate.m */,
+				8550476514697AC70043A1A1 /* BigView.h */,
+				8550476614697AC70043A1A1 /* BigView.m */,
+				8550476814697B6F0043A1A1 /* LittleView0.h */,
+				8550476914697B6F0043A1A1 /* LittleView0.m */,
+				8550476B14697B860043A1A1 /* LittleView1.h */,
+				8550476C14697B860043A1A1 /* LittleView1.m */,
 				8550473D14697A300043A1A1 /* Supporting Files */,
 			);
 			path = Nov10a;
@@ -116,6 +133,7 @@
 		8550473D14697A300043A1A1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				855047921469929A0043A1A1 /* StarTrek.mp3 */,
 				8550473E14697A300043A1A1 /* Nov10a-Info.plist */,
 				8550473F14697A300043A1A1 /* InfoPlist.strings */,
 				8550474214697A300043A1A1 /* main.m */,
@@ -214,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8550474114697A300043A1A1 /* InfoPlist.strings in Resources */,
+				855047931469929A0043A1A1 /* StarTrek.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +269,9 @@
 			files = (
 				8550474314697A300043A1A1 /* main.m in Sources */,
 				8550474714697A300043A1A1 /* Nov10aAppDelegate.m in Sources */,
+				8550476714697AC70043A1A1 /* BigView.m in Sources */,
+				8550476A14697B6F0043A1A1 /* LittleView0.m in Sources */,
+				8550476D14697B860043A1A1 /* LittleView1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +433,7 @@
 				8550476114697A310043A1A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8550476214697A310043A1A1 /* Build configuration list for PBXNativeTarget "Nov10aTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +442,7 @@
 				8550476414697A310043A1A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+ 
 
-@interface LittleView1 : UIView
+@interface LittleView1 : UIView {
+   UILabel *label;
+     
+    
+}
 
 @end

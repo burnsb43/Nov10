@@ -7,6 +7,7 @@
 //
 
 #import "Nov10aAppDelegate.h"
+#import "BigView.h"
 
 @implementation Nov10aAppDelegate
 
@@ -14,11 +15,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    UIScreen *screen = [UIScreen mainScreen];
+    bigView = [[BigView alloc] initWithFrame: screen.applicationFrame];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    [self.window addSubview: bigView];
     [self.window makeKeyAndVisible];
     return YES;
+    
+ 
+
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
