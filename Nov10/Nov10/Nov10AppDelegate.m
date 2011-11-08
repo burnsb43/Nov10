@@ -7,6 +7,7 @@
 //
 
 #import "Nov10AppDelegate.h"
+#import "MainView.h"
 
 @implementation Nov10AppDelegate
 
@@ -14,9 +15,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    UIScreen *screen = [UIScreen mainScreen];
+    mainView = [[MainView alloc] initWithFrame: screen.applicationFrame];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    [self.window addSubview: mainView];
     [self.window makeKeyAndVisible];
     return YES;
 }
