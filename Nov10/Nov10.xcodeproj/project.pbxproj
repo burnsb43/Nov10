@@ -18,6 +18,11 @@
 		855046FC146974C60043A1A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 855046E3146974C60043A1A1 /* Foundation.framework */; };
 		85504704146974C60043A1A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85504702146974C60043A1A1 /* InfoPlist.strings */; };
 		85504707146974C60043A1A1 /* Nov10Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85504706146974C60043A1A1 /* Nov10Tests.m */; };
+		85504718146975150043A1A1 /* LittleView0.m in Sources */ = {isa = PBXBuildFile; fileRef = 85504711146975150043A1A1 /* LittleView0.m */; };
+		85504719146975150043A1A1 /* LittleView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 85504713146975150043A1A1 /* LittleView1.m */; };
+		8550471A146975150043A1A1 /* LittleView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 85504715146975150043A1A1 /* LittleView2.m */; };
+		8550471B146975150043A1A1 /* LittleView3.m in Sources */ = {isa = PBXBuildFile; fileRef = 85504717146975150043A1A1 /* LittleView3.m */; };
+		8550471E146975210043A1A1 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550471D146975210043A1A1 /* MainView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +40,28 @@
 		855046E1146974C60043A1A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		855046E3146974C60043A1A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		855046E5146974C60043A1A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		855046E9146974C60043A1A1 /* Nov10-Info.plist */ = {isa = PBXFileReference; path = "Nov10-Info.plist"; sourceTree = "<group>"; };
+		855046E9146974C60043A1A1 /* Nov10-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nov10-Info.plist"; sourceTree = "<group>"; };
 		855046EB146974C60043A1A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		855046ED146974C60043A1A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		855046EF146974C60043A1A1 /* Nov10-Prefix.pch */ = {isa = PBXFileReference; path = "Nov10-Prefix.pch"; sourceTree = "<group>"; };
-		855046F0146974C60043A1A1 /* Nov10AppDelegate.h */ = {isa = PBXFileReference; path = Nov10AppDelegate.h; sourceTree = "<group>"; };
+		855046EF146974C60043A1A1 /* Nov10-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nov10-Prefix.pch"; sourceTree = "<group>"; };
+		855046F0146974C60043A1A1 /* Nov10AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nov10AppDelegate.h; sourceTree = "<group>"; };
 		855046F1146974C60043A1A1 /* Nov10AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nov10AppDelegate.m; sourceTree = "<group>"; };
 		855046F8146974C60043A1A1 /* Nov10Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nov10Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		855046F9146974C60043A1A1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		85504701146974C60043A1A1 /* Nov10Tests-Info.plist */ = {isa = PBXFileReference; path = "Nov10Tests-Info.plist"; sourceTree = "<group>"; };
+		85504701146974C60043A1A1 /* Nov10Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nov10Tests-Info.plist"; sourceTree = "<group>"; };
 		85504703146974C60043A1A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		85504705146974C60043A1A1 /* Nov10Tests.h */ = {isa = PBXFileReference; path = Nov10Tests.h; sourceTree = "<group>"; };
+		85504705146974C60043A1A1 /* Nov10Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nov10Tests.h; sourceTree = "<group>"; };
 		85504706146974C60043A1A1 /* Nov10Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nov10Tests.m; sourceTree = "<group>"; };
+		85504710146975150043A1A1 /* LittleView0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LittleView0.h; sourceTree = "<group>"; };
+		85504711146975150043A1A1 /* LittleView0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LittleView0.m; sourceTree = "<group>"; };
+		85504712146975150043A1A1 /* LittleView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LittleView1.h; sourceTree = "<group>"; };
+		85504713146975150043A1A1 /* LittleView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LittleView1.m; sourceTree = "<group>"; };
+		85504714146975150043A1A1 /* LittleView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LittleView2.h; sourceTree = "<group>"; };
+		85504715146975150043A1A1 /* LittleView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LittleView2.m; sourceTree = "<group>"; };
+		85504716146975150043A1A1 /* LittleView3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LittleView3.h; sourceTree = "<group>"; };
+		85504717146975150043A1A1 /* LittleView3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LittleView3.m; sourceTree = "<group>"; };
+		8550471C146975210043A1A1 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		8550471D146975210043A1A1 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +123,16 @@
 			children = (
 				855046F0146974C60043A1A1 /* Nov10AppDelegate.h */,
 				855046F1146974C60043A1A1 /* Nov10AppDelegate.m */,
+				8550471C146975210043A1A1 /* MainView.h */,
+				8550471D146975210043A1A1 /* MainView.m */,
+				85504710146975150043A1A1 /* LittleView0.h */,
+				85504711146975150043A1A1 /* LittleView0.m */,
+				85504712146975150043A1A1 /* LittleView1.h */,
+				85504713146975150043A1A1 /* LittleView1.m */,
+				85504714146975150043A1A1 /* LittleView2.h */,
+				85504715146975150043A1A1 /* LittleView2.m */,
+				85504716146975150043A1A1 /* LittleView3.h */,
+				85504717146975150043A1A1 /* LittleView3.m */,
 				855046E8146974C60043A1A1 /* Supporting Files */,
 			);
 			path = Nov10;
@@ -250,6 +275,11 @@
 			files = (
 				855046EE146974C60043A1A1 /* main.m in Sources */,
 				855046F2146974C60043A1A1 /* Nov10AppDelegate.m in Sources */,
+				85504718146975150043A1A1 /* LittleView0.m in Sources */,
+				85504719146975150043A1A1 /* LittleView1.m in Sources */,
+				8550471A146975150043A1A1 /* LittleView2.m in Sources */,
+				8550471B146975150043A1A1 /* LittleView3.m in Sources */,
+				8550471E146975210043A1A1 /* MainView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
