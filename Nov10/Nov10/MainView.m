@@ -33,12 +33,81 @@
         pointBegan = CGPointZero;
         pointMoved = CGPointZero;
         
+        UISwipeGestureRecognizer *recognizer = [[UISwipeGestureRecognizer alloc]
+                                                initWithTarget: self action: @selector(swipe:)
+                                                ];
+		recognizer.direction = UISwipeGestureRecognizerDirectionRight;
+		[self addGestureRecognizer: recognizer];
         
+		recognizer = [[UISwipeGestureRecognizer alloc]
+                      initWithTarget: self action: @selector(swipe:)
+                      ];
+		recognizer.direction = UISwipeGestureRecognizerDirectionLeft;
+		[self addGestureRecognizer: recognizer];
+        
+		recognizer = [[UISwipeGestureRecognizer alloc]
+                      initWithTarget: self action: @selector(swipe:)
+                      ];
+		recognizer.direction = UISwipeGestureRecognizerDirectionUp;
+		[self addGestureRecognizer: recognizer];
+        
+		recognizer = [[UISwipeGestureRecognizer alloc]
+                      initWithTarget: self action: @selector(swipe:)
+                      ];
+		recognizer.direction = UISwipeGestureRecognizerDirectionDown;
+		[self addGestureRecognizer: recognizer];
         
     }
     return self;
 }
-
+- (void) swipe: (UISwipeGestureRecognizer *) recognizer {
+    //	CGPoint p = [recognizer locationInView: self];   // unused variable?
+    
+     
+    NSUInteger newIndex = 1 + index;
+    
+    if (newIndex == 4) {
+        newIndex = 0;
+    }
+    
+    
+	//NSString *direction = @"unknown";
+	if (recognizer.direction == UISwipeGestureRecognizerDirectionRight) {
+        
+        [UIView transitionFromView:[views objectAtIndex:index] 
+                            toView:[views objectAtIndex: newIndex]
+                          duration:2.25 
+                           options: UIViewAnimationOptionTransitionFlipFromRight 
+         //options:UIViewAnimationOptionTransitionCurlUp       
+                        completion:NULL
+         ];
+        
+	} else if (recognizer.direction == UISwipeGestureRecognizerDirectionLeft) {
+		[UIView transitionFromView:[views objectAtIndex:index] 
+                            toView:[views objectAtIndex: newIndex]
+                          duration:2.25 
+                           options: UIViewAnimationOptionTransitionFlipFromLeft 
+         //options:UIViewAnimationOptionTransitionCurlUp       
+                        completion:NULL
+         ];
+	} else if (recognizer.direction == UISwipeGestureRecognizerDirectionUp) {
+		[UIView transitionFromView:[views objectAtIndex:index] 
+                            toView:[views objectAtIndex: newIndex]
+                          duration:2.25 
+                           options: UIViewAnimationOptionTransitionCurlUp     
+         //options:UIViewAnimationOptionTransitionCurlUp       
+                        completion:NULL
+         ];	} else if (recognizer.direction == UISwipeGestureRecognizerDirectionDown) {
+            [UIView transitionFromView:[views objectAtIndex:index] 
+                                toView:[views objectAtIndex: newIndex]
+                              duration:2.25 
+             
+                               options:UIViewAnimationOptionTransitionCurlDown      
+                            completion:NULL
+             ];	}
+    
+    index = newIndex;
+}
 /*
 - (void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
     
@@ -64,7 +133,7 @@
     index = newIndex;
 }
 */
-
+/*
  //   This code is for determining direction without gesture recognizer
 
 - (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
@@ -143,7 +212,8 @@
     
     index = newIndex;
 }
-                                                                   
+   
+ */
 /* 
  // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
