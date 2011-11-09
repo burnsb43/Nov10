@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LittleView3 : UIView
-
+@interface LittleView3 : UIView {
+    
+    UIImage *startrek;  
+}
 @end

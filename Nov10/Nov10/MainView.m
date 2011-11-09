@@ -19,6 +19,10 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
+        
+        self.backgroundColor = [UIColor blackColor];
+
+        
         views = [NSArray arrayWithObjects:
                  [[LittleView0 alloc] initWithFrame: self.bounds],
                  [[LittleView1 alloc] initWithFrame: self.bounds],
