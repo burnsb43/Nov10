@@ -23,8 +23,8 @@
 		8550471A146975150043A1A1 /* LittleView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 85504715146975150043A1A1 /* LittleView2.m */; };
 		8550471B146975150043A1A1 /* LittleView3.m in Sources */ = {isa = PBXBuildFile; fileRef = 85504717146975150043A1A1 /* LittleView3.m */; };
 		8550471E146975210043A1A1 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550471D146975210043A1A1 /* MainView.m */; };
-		85EDFAFD146AF6A300B80BBB /* StarTrek.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85EDFAFC146AF6A300B80BBB /* StarTrek.mp3 */; };
-		85EDFB00146B23E100B80BBB /* star_trek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85EDFAFF146B23E100B80BBB /* star_trek.jpg */; };
+		85EDFB0E146C340800B80BBB /* star_trek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85EDFB0D146C340800B80BBB /* star_trek.jpg */; };
+		85EDFB1A146C35C900B80BBB /* StarTrek.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85EDFB19146C35C900B80BBB /* StarTrek.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,8 +64,8 @@
 		85504717146975150043A1A1 /* LittleView3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LittleView3.m; sourceTree = "<group>"; };
 		8550471C146975210043A1A1 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
 		8550471D146975210043A1A1 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
-		85EDFAFC146AF6A300B80BBB /* StarTrek.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = StarTrek.mp3; path = ../../Nov10a/Nov10a/StarTrek.mp3; sourceTree = "<group>"; };
-		85EDFAFF146B23E100B80BBB /* star_trek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = star_trek.jpg; path = ../../Nov10a/Nov10a/star_trek.jpg; sourceTree = "<group>"; };
+		85EDFB0D146C340800B80BBB /* star_trek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = star_trek.jpg; sourceTree = "<group>"; };
+		85EDFB19146C35C900B80BBB /* StarTrek.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StarTrek.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,8 +145,8 @@
 		855046E8146974C60043A1A1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				85EDFAFF146B23E100B80BBB /* star_trek.jpg */,
-				85EDFAFC146AF6A300B80BBB /* StarTrek.mp3 */,
+				85EDFB0D146C340800B80BBB /* star_trek.jpg */,
+				85EDFB19146C35C900B80BBB /* StarTrek.mp3 */,
 				855046E9146974C60043A1A1 /* Nov10-Info.plist */,
 				855046EA146974C60043A1A1 /* InfoPlist.strings */,
 				855046ED146974C60043A1A1 /* main.m */,
@@ -245,8 +245,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				855046EC146974C60043A1A1 /* InfoPlist.strings in Resources */,
-				85EDFAFD146AF6A300B80BBB /* StarTrek.mp3 in Resources */,
-				85EDFB00146B23E100B80BBB /* star_trek.jpg in Resources */,
+				85EDFB0E146C340800B80BBB /* star_trek.jpg in Resources */,
+				85EDFB1A146C35C900B80BBB /* StarTrek.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

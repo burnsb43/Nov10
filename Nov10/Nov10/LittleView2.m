@@ -55,6 +55,8 @@
                           delay: 2
                         options: UIViewAnimationOptionCurveLinear
                      animations: ^{
+                         
+                         [UIView setAnimationRepeatCount:10]; 
                          //Move the label far enough to the left
                          //so that it's out of the View.
                          label.center = CGPointMake(

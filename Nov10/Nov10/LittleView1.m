@@ -19,12 +19,12 @@
         // self.backgroundColor = [UIColor blueColor];
         textView = [[UITextView alloc] initWithFrame: self.bounds];
         textView.backgroundColor = [UIColor whiteColor];
-        textView.textColor = [UIColor redColor];
-        textView.font = [UIFont fontWithName: @"Times New Roman" size: 15.75];
+        textView.textColor = [UIColor blackColor];
+        textView.font = [UIFont fontWithName: @"Papyrus" size: 16.75];
         textView.editable = NO; // Don't pop up a keyboard.
         
         textView.text = 
-           @"  \n"
+     
         @"\tIt was the best of times, \n"
         @"\tit was the worst of times,\n"
         @"\tit was the age of wisdom,  \n"
@@ -39,11 +39,11 @@
         @"\twe had everything before us,\n"
         @"\twe had nothing before us,\n"
         @"\twe were all going direct to Heaven,\n"
-        @"\twe were all going direct the other way,\n\n"
-        @"—in short, the period was like the present.\n\n\n"  ;
+        @"\twe were all going direct the other way,\n"
+        @"—in short, the period was like the present.\n\n"  ;
         
         textView.text = [textView.text stringByAppendingFormat:
-                         @"\t\tTale of Two Cities, Opening Paragraph" ]; 
+                         @"\t\tTale of Two Cities" ]; 
         
         [self addSubview: textView];
         
